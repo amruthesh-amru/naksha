@@ -16,7 +16,7 @@ function Navbar() {
                     <ul>
                     <li id='active'><NavLink to='/'>HOME</NavLink></li>
                     <li id='active'><NavLink to='about'>ABOUT</NavLink></li>
-                    <li id='active'><NavLink to='project'>Projects</NavLink></li>
+                    <li id='active'><NavLink to='project'>PROJECTS</NavLink></li>
                     
                         <li>CONTACT</li>
                     </ul>

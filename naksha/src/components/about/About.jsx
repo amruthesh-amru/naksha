@@ -3,8 +3,8 @@ import image1 from '../assets/SRI_5075.jpg'
 import image2 from '../assets/Rectangle 17554.png'
 import image3 from '../assets/image 29.png'
 import image4 from '../assets/Screenshot 2023-11-14 at 4.06 1.png'
-import image5 from '../assets/Rectangle 17555.png'
-import image6 from '../assets/DSC_2934.jpg'
+
+import image5 from '../assets/DSC_2934.jpg'
 
 function About() {
   return (
@@ -47,7 +47,7 @@ function About() {
           </div>
       </div>
       <div className="middle_image">
-        <img src={image6} alt="" />
+        <img src={image5} alt="" />
       </div>
       <div className="bottom_text_left">
         <p>
