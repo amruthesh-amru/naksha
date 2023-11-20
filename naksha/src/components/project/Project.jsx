@@ -65,7 +65,7 @@ effortless luxury.
                 </div>
         </section>
         <section className="project_section3">
-            <div className='container'>
+            <div className='wrapper_container'>
                 <p>NEXT PROJECT</p>
                 <div className="image_container">
                    <h1>MYSORE UNION</h1>
