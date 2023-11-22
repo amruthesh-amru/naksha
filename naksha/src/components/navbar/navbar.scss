@@ -1,6 +1,20 @@
+#active a.active{
+    color: #CD9D45;
+    .fa-angles-right{
+        display: contents;
+    }
+}
+
+.projectActive{
+    li{
+        color: white;
+    }
+}
+
 .nav_container{
+
     a{
-        color: #fff;
+        color: #000;
     }
     display: flex;
     justify-content: space-between;
@@ -33,6 +47,10 @@
                 font-weight: 400;
                 line-height: 1.6rem; /* 256% */
                 letter-spacing: 0.04375rem;
+
+                .fa-angles-right{
+                    display: none;
+                }
             }
         }
     }

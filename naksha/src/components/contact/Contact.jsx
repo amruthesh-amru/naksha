@@ -18,34 +18,34 @@ function Contact() {
    <div className="form">
    <div className="container">
      
-      <form action="#">
+      <form action="https://formsubmit.co/amrutheshamru16@gmail.com" method="POST">
          <div className="form-row">
             <div className="input-data">
-               <input type="text" required />
+               <input type="text" name='firstname' required />
                <div className="underline"></div>
                <label >First Name</label>
             </div>
             <div className="input-data">
-               <input type="text" required />
+               <input type="text" name='lastname' required />
                <div className="underline"></div>
                <label >Last Name</label>
             </div>
          </div>
          <div className="form-row">
             <div className="input-data">
-               <input type="text" required />
+               <input type="text" name='email' required />
                <div className="underline"></div>
                <label >Email Address</label>
             </div>
             <div className="input-data">
-               <input type="text" required />
+               <input type="text" name='subject' required />
                <div className="underline"></div>
                <label >Subject</label>
             </div>
          </div>
          <div className="form-row">
          <div className="input-data textarea">
-            <textarea rows="8" cols="80" required ></textarea>
+            <textarea rows="8" cols="80" name='message' required ></textarea>
             <br />
             <div className="underline"></div>
             <label >Write your message</label>
