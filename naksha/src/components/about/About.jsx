@@ -3,12 +3,13 @@ import image1 from '../assets/SRI_5075.jpg'
 import image2 from '../assets/Rectangle 17554.png'
 import image3 from '../assets/image 29.png'
 import image4 from '../assets/Screenshot 2023-11-14 at 4.06 1.png'
-
 import image5 from '../assets/DSC_2934.jpg'
+import Navbar from '../navbar/Navbar'
 
 function About() {
   return (
    <>
+    <Navbar/>
       <section className="about_section1">
         <div className="about_text">
           <h1>About Us</h1>

@@ -1,0 +1,110 @@
+.home_wrapper{
+    background-image: linear-gradient(#ff70327d 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #ff703266 calc(100% - 0.5px)), linear-gradient(90deg, #ff703285 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #ff70327a calc(100% - 0.5px));
+    background-size: 4.56% 5%;
+    // border: 0.5px solid #FF7032;
+    .home_section1{
+        .home_image{
+            .image1{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .image2_container{
+            width: 11.125rem;
+            height: 11.125rem;
+            position: absolute;
+            top: 23.06rem;
+            left: 39.44rem;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .home_section2{
+        width: 100%;
+        // margin-top: 8.88rem;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       
+      
+       .home_content{
+        background-color:#FEF9F2;
+
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 43.9375rem;
+           .home_h1_container{
+               text-align: left;
+               h1{
+                   color: #1F1F1F;
+                   font-family: Ivy Mode;
+                   font-size: 7.5rem;
+                   font-style: normal;
+                   font-weight: 400;
+                   line-height: 7.9375rem; /* 105.833% */
+                   letter-spacing: 0.075rem;
+                   text-transform: capitalize;
+               }
+           }
+           .home_h2_container{
+                display: flex;
+                width: 22.375rem;
+                height: 7.375rem;
+                transform: rotate(-1.644deg);
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 0;
+               h2{
+                   color: #DBB161;
+                   font-family: The Nautigal;
+                   font-size: 10.625rem;
+                   font-style: normal;
+                   font-weight: 400;
+                   line-height: 1.80625rem; /* 17% */
+                   letter-spacing: 0.31875rem;
+               }
+           }
+           .home_p_container{
+            width: 28.125rem;
+            margin-top: 2.8rem;
+            p{
+                color: #1F1F1F;
+                text-align: center;
+                font-family: Cormorant;
+                font-size: 1.0625rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 1.68125rem; /* 158.235% */
+            }
+           }
+       }
+    
+    }
+    .package_section{
+        width: 80%;
+        margin: 0 auto;
+        margin-top:11.37rem ;
+        .package_h1_container{
+            width: 43.5rem;
+            height: 19.3125rem;
+            h1{
+                 background-color:#FEF9F2;
+                color: #1F1F1F;
+                font-family: Ivy Mode;
+                font-size: 7.6875rem;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 7.9375rem; /* 103.252% */
+                letter-spacing: 0.07688rem;
+                text-transform: capitalize;
+            }
+            .alignRight{
+                text-align: right;
+            }
+        }
+    }
+}

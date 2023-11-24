@@ -10,9 +10,9 @@
         width: 52.375rem;
         height: 26.225rem;
         position: absolute;
-        top: 12.75rem;
+        top: 10.75rem;
         h1{
-            color: #FFF;
+            color: #C99D2B;
         text-align: center;
         font-family: Ivy Mode;
         font-size: 12.5rem;
@@ -81,7 +81,9 @@
             justify-content: center;
             align-items:flex-start;
             img{
-
+                width: 16.1875rem;
+                height: 25.875rem;
+                object-fit: cover;
             }
         }
         .right{
@@ -90,7 +92,9 @@
             justify-content: flex-end;
             align-items: center;
             img{
-
+                object-fit: cover;
+                width: 49.125rem;
+                height: 44.3125rem;
             }
         }
     }
@@ -98,7 +102,7 @@
 .project_section2{
     height: 89.12rem;
     width: 100%;
-    background-color: #F4F3F1;
+    background-color: #fef9f2;
     .text_content2{
         display:flex ;
         align-items: flex-start;
@@ -152,7 +156,8 @@
             justify-content: center;
             align-items:flex-start;
             img{
-
+                width: 16.1875rem;
+                height: 25.875rem;
             }
         }
         .right{
@@ -161,7 +166,9 @@
             justify-content: flex-end;
             align-items: center;
             img{
-
+                object-fit: cover;
+                width: 49.125rem;
+                height: 44.3125rem;
             }
         }
     }

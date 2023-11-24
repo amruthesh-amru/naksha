@@ -5,16 +5,19 @@
     }
 }
 
-.projectActive{
-    li{
-        color: white;
-    }
-}
+
 
 .nav_container{
 
     a{
         color: #000;
+    }
+    .projectUlActive{
+            a{
+                color: white ;
+            }
+           
+           
     }
     display: flex;
     justify-content: space-between;
@@ -23,21 +26,30 @@
     padding: 2rem 4.60em 0 3.56rem;
     position: absolute;
     background-color: transparent;
-    .left{
-        width: 12rem;
-        height: 2rem;
+   
+    .projectParaActive{
+        P{
+            color: #CD9D45 !important;
+        }
+    }
+
+    .mid{
+        width: 28.375rem;
+        height: 1rem;
+        
         p{
-            color: #AFAFAF;
+            color: #2F2F2C;
             font-family: Quantico;
-            font-size: 0.6875rem;
+            font-size: 0.9375rem;
             font-style: normal;
-            font-weight: 400;
-            line-height: 0.975rem; /* 141.818% */
-            letter-spacing: 0.01375rem;
+            font-weight: 700;
+            line-height: 0.975rem; /* 104% */
+            letter-spacing: 0.01875rem;
         }
     }
     .right{
         text-align: right;
+        
         ul{
             li{
                 color: #fff;

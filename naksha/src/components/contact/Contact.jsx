@@ -1,9 +1,9 @@
 import './contact.css'
-
+import Navbar from '../navbar/Navbar'
 function Contact() {
   return (
     <>
-    
+    <Navbar/>
   <div className="full_container">
   <div className="contact_container">
    <div className="content">
@@ -78,8 +78,9 @@ function Contact() {
             <p>Stage, Vijayanagar, Mysuru, Karnataka 570017</p>
          </div>
          <div className="social_account">
-               <h3>INSTAGRAM</h3>
-               <h3>VIEW ON MAP</h3>
+               <a href="https://www.instagram.com/nakhsha_builders/" target='_blank' rel='noreferrer'><h3>INSTAGRAM</h3></a>
+               <a  href="https://maps.app.goo.gl/G4SdLc7EvnDsDhJ59" target='_blank' rel='noreferrer'> <h3>VIEW ON MAP</h3></a>
+              
          </div>
       </div>
    </footer>
