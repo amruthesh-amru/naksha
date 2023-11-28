@@ -17,8 +17,13 @@
 }
 .package_cards{
     width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4.75rem;
+    padding-bottom: 12rem;
     .package_card_container{
-        
+        border: 4px solid #DBB161;
         gap: 5.87rem;
         .card{
             display: flex;
@@ -26,6 +31,7 @@
         align-items: center;
         flex-direction: column;
         width: 37.9375rem;
+        padding: 20px;
             flex-shrink: 0;
             background-color: black;
             color: #FEF9F2;
@@ -68,7 +74,9 @@ details {
 	background: #ffffff;
 	position: relative;
 	width: 37.9375rem;
-
+    border-bottom: 2px solid #D1D1D1;
+    padding: 1rem;
+    
 	.summary-title {
 		color: #946A1A;
         font-family: Ivy Mode;
@@ -107,7 +115,7 @@ details {
 	summary {
 		list-style: none;
 		padding: $details-padding;
-
+        
 		&:focus {
 			outline: none;
 		}
@@ -123,9 +131,12 @@ details {
 
 	.summary-chevron-up,
 	.summary-chevron-down {
+        display: flex;
+        align-items: center;
+        justify-content: center;
 		pointer-events: none;
 		position: absolute;
-		top: 0.75em;
+		top:2.3em;
 		right: $details-padding;
 		background: #ffffff;
 
