@@ -11,7 +11,7 @@ function Packages() {
       </div>
 
   <section className="package_details_section">
-      <div className="package_cards">
+      <div className="package_cards1">
           <div className="package_card_container">
           <div className="card">
           <h1>Premium Home</h1>

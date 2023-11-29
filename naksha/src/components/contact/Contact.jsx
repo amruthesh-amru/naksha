@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
     <Navbar/>
-  <div className="full_container">
+  {/* <div className="full_container">
   <div className="contact_container">
    <div className="content">
    <p>GET IN TOUCH</p>
@@ -83,7 +83,7 @@ function Contact() {
               
          </div>
       </div>
-   </footer>
+   </footer> */}
 
         </>
   )

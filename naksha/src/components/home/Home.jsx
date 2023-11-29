@@ -9,6 +9,7 @@ import image6 from '../assets/Group 1171278296.png'
 import image7 from '../assets/Rectangle 17553.png'
 import image8 from '../assets/image 47.png'
 import { NavLink } from 'react-router-dom'
+
 function Home() {
 
   return (
@@ -16,14 +17,14 @@ function Home() {
         <Navbar/>
         <div className="home_wrapper">
         <section className='home_section1'>
-        <div className="home_image">
+        {/* <div className="home_image">
           <img className='image1' src={image1} alt="" />
-        </div>
+        </div> */}
           <div className="image2_container">
           <img  src={image2} alt="" />
           </div>
         </section>
-        <section className='home_section2'>
+         <section className='home_section2'>
           <div className="home_content">
           <div className="home_h1_container">
          <h1>
@@ -40,17 +41,14 @@ function Home() {
           </div>
           </div>
         </section>
-        <section className="package_section">
-          <div className="package_section_container">
 
+       <section className="package_section">
+          <div className="package_section_container">
           <div className="package_h1_container">
         <h1>OUR</h1>
           <h1 className='alignRight'>PACKAGES</h1>
-
           </div>
           </div>
-
-
         </section>
         <div className="package_cards">
           <div className="package_card_container">
@@ -72,7 +70,7 @@ function Home() {
         </div>
         </div>
         <div className="package_image">
-          <img src={image3} alt="" />
+          {/* <img src={image3} alt="" /> */}
         </div>
         <div className="experience">
           <div className="experience_content">
@@ -87,7 +85,7 @@ function Home() {
           </div>
           <img src={image4} alt="" />
         </div>
-        <section className="process_section">
+         {/*<section className="process_section">
             <div className="process_section_container">
               <div className="process_image">
                 <div className="process_h1_container">
@@ -168,7 +166,7 @@ function Home() {
                 <div className="contact_image_container1">
                   <img src={image8} alt="" />
                 </div>
-          </div>
+          </div> */}
 
           
     </>

@@ -7,8 +7,24 @@
 
 
 
-.nav_container{
+.menu{
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 2.5rem;
+    h1{
+        color: #9C6706;
+        font-family: RocknRoll One;
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.6rem; /* 170.667% */
+        letter-spacing: 0.0375rem;
+        text-decoration-line: underline;
+    }
+}
 
+.nav_container{
     a{
         color: #000;
     }
@@ -66,4 +82,92 @@
             }
         }
     }
+}
+.hide{
+    display: none;
+}
+@media(max-width:765px){
+    body{
+        // background-color: #36372D;
+    }
+    .menu_bar{
+        width: 100%;
+        height: 100vh;
+        
+        }
+        .links{
+        display: contents;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        ul{
+            li{
+                
+            }
+        }
+    }
+    .nav_container{
+        flex-direction: column;
+        gap: 1.75rem;
+        a{
+            color: #000;
+        }
+        .projectUlActive{
+                a{
+                    color: white ;
+                }
+               
+        }
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        padding: 2rem 4.60em 0 3.56rem;
+        position: absolute;
+        background-color: transparent;
+       
+        .projectParaActive{
+            P{
+                color: #CD9D45 !important;
+            }
+        }
+    
+        .mid{
+            width: 100%;
+            text-align: center;
+            p{
+                color: #2F2F2C;
+                text-align: center;
+                font-family: Quantico;
+                font-size: 0.9375rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.1625rem; /* 124% */
+                letter-spacing: 0.01875rem;
+            }
+        }
+        .right{
+            display: none;
+        }
+    }
+    .menu{
+        display: block;
+        text-align: right;
+        position: absolute;
+        right: 1rem;
+        top: 2.5rem;
+        h1{
+            color: #9C6706;
+            font-family: RocknRoll One;
+            font-size: 0.9375rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.6rem; /* 170.667% */
+            letter-spacing: 0.0375rem;
+            text-decoration-line: underline;
+        }
+    }
+    
 }
