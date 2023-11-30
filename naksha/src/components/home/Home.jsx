@@ -8,9 +8,26 @@ import image5 from '../assets/Homepage 15.png'
 import image6 from '../assets/Group 1171278296.png'
 import image7 from '../assets/Rectangle 17553.png'
 import image8 from '../assets/image 47.png'
+import media3 from '../assets/media 3.png'
 import { NavLink } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 
 function Home() {
+  let [windowSize,setWindowSize] = useState(window.innerWidth)
+  console.log(windowSize);
+  useEffect(() => {
+    const handleResize = () =>{
+      setWindowSize(window.innerWidth);
+    }
+    window.addEventListener('resize',handleResize);
+
+    return () => {
+      window.removeEventListener('resize',handleResize)
+    }
+
+  },[]);
+
+
 
   return (
     <>
@@ -85,17 +102,17 @@ function Home() {
           </div>
           <img src={image4} alt="" />
         </div>
-         {/*<section className="process_section">
+         <section className="process_section">
             <div className="process_section_container">
               <div className="process_image">
-                <div className="process_h1_container">
+                {/* <div className="process_h1_container">
                 <h1>OUR</h1>
                 <span>
 
                 <h1>PROCESS</h1>
                 </span>
-                </div>
-                <img src={image5} alt="" />
+                </div> */}
+ 
               </div>
             </div>
 
@@ -133,7 +150,7 @@ function Home() {
               </div>
             </div>
         </section>
-          <section className='home_bottom_section'>
+          {/*<section className='home_bottom_section'>
             <div className='bottom_top'>
             <h1>WE WILL BUILD 
             YOUR <span>DREAM HOUSE</span></h1>
