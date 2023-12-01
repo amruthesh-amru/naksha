@@ -150,7 +150,7 @@ function Home() {
               </div>
             </div>
         </section>
-          {/*<section className='home_bottom_section'>
+          <section className='home_bottom_section'>
             <div className='bottom_top'>
             <h1>WE WILL BUILD 
             YOUR <span>DREAM HOUSE</span></h1>
@@ -170,7 +170,7 @@ function Home() {
                 <div className="contact_content">
                   <div className="contact_left">
                   <i className="fa-solid fa-angles-right icon"/>
-                  <p> SEND US MESSAGE CALL </p>
+                  <p> SEND US MESSAGE </p>
                   </div>
                   <div className="contact_left">
                   <i className="fa-solid fa-angles-right icon"/>
@@ -183,7 +183,7 @@ function Home() {
                 <div className="contact_image_container1">
                   <img src={image8} alt="" />
                 </div>
-          </div> */}
+          </div>
 
           
     </>
