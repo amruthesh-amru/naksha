@@ -9,6 +9,9 @@ import Project from './components/project/Project.jsx';
 import Contact from './components/contact/Contact.jsx';
 import Home from './components/home/Home.jsx';
 import Packages from './components/packages/Packages.jsx';
+import Project1 from './components/Project1/Project1.jsx';
+import Project2 from './components/project2/Project2.jsx';
+import Project3 from './components/project3/Project3.jsx';
 
 const router = createBrowserRouter([
   
@@ -30,6 +33,18 @@ const router = createBrowserRouter([
     {
       path:"/packages",
       element:<Packages/>
+  },
+    {
+      path:"/project1",
+      element:<Project1/>
+  },
+    {
+      path:"/project2",
+      element:<Project2/>
+  },
+    {
+      path:"/project3",
+      element:<Project3/>
   },
   
 ])

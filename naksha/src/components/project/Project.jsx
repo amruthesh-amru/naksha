@@ -1,15 +1,13 @@
 import './project.scss'
-import image1 from '../assets/Rectangle 17557.png'
-import image1Demo1 from '../assets/DSC_9721.jpg'
-import image1Demo2 from '../assets/DSC_9738.jpg'
-import image1Demo3 from '../assets/DSC_9721.jpg'
-import image2 from '../assets/Rectangle 17558.png'
-import image2Demo1 from '../assets/DSC_9768.jpg'
-import image3 from '../assets/Rectangle 17557 (1).png'
-import image3Demo1 from '../assets/DSC_9771.jpg'
-import image4Demo1 from '../assets/DSC_9763.jpg'
-import image5Demo1 from '../assets/DSC_9750.jpg'
+import image1 from '../assets/DSC_9721.jpg'
+import image2 from '../assets/DSC_9771.jpg'
+import image3 from '../assets/DSC_9782.jpg'
+import image4 from '../assets/DSC_9738.jpg'
+import image5 from '../assets/DSC_9739.jpg'
+
+
 import Navbar from '../navbar/Navbar'
+import { NavLink } from 'react-router-dom'
 
 function Project() {
   return (
@@ -21,7 +19,7 @@ function Project() {
                 <h1>NIKHIL'S PROJECT</h1>
             </div>
             <div className="main_image">
-                <img src={image1Demo3} alt="" />
+                <img src={image1} alt="" />
             </div>
             <div className="text_content1">
                 <div className="left">
@@ -40,14 +38,28 @@ function Project() {
                 </div>
             </div>
                 <div className="images1">
-                    <div className="left">
-                        <img src={image2Demo1} alt="" />
+                    {/* <div className="left">
+                        <img src={image2} alt="" />
                     </div>
                     <div className="right">
                         <img src={image3Demo1} alt="" />
-                    </div>
+                    </div> */}
+            <div className="item1">
+              <img className="grid_image" src={image2} alt="image 2"/>
+            </div>
+            <div className="item2">
+              <img className="grid_image" src={image3} alt="image 1"/>
+            </div>
+            <div className="item3">
+              
+            </div>
+            <div className="item4">
+              <img className="grid_image" src={image4} alt="image 1"/>
+            </div>
+            <div className="item5">
+              <img className="grid_image" src={image5} alt="image 1"/>
+            </div>
                 </div>
-
         </section>
         <section className="project_section2">
         <div className="text_content2">
@@ -66,23 +78,25 @@ function Project() {
                         </p>
                 </div>
             </div>
-            <div className="images2">
+            {/* <div className="images2">
                     <div className="left">
                         <img src={image4Demo1} alt="" />
                     </div>
                     <div className="right">
                         <img src={image5Demo1} alt="" />
                     </div>
-                </div>
+                </div> */}
         </section>
         <section className="project_section3">
+        <NavLink to='/project1'>
             <div className='wrapper_container'>
                 <p>NEXT PROJECT</p>
                 <div className="image_container">
-                   <h1>MYSORE UNION</h1>
+                   <h1>SUDEER KOTAPPA</h1>
                 </div>
                 <p>A luxuries club & restaurant</p>
             </div>
+        </NavLink>
         </section>
     </>
   )

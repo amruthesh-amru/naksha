@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
     <Navbar/>
-  {/* <div className="full_container">
+  <div className="full_container">
   <div className="contact_container">
    <div className="content">
    <p>GET IN TOUCH</p>
@@ -18,7 +18,7 @@ function Contact() {
    <div className="form">
    <div className="container">
      
-      <form action="https://formsubmit.co/amrutheshamru16@gmail.com" method="POST">
+      <form action="https://formsubmit.co/39c85d47b8eaf40995c231e1f7870e94" method="POST">
          <div className="form-row">
             <div className="input-data">
                <input type="text" name='firstname' required />
@@ -83,7 +83,7 @@ function Contact() {
               
          </div>
       </div>
-   </footer> */}
+   </footer>
 
         </>
   )
