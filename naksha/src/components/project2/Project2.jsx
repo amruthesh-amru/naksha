@@ -1,10 +1,11 @@
-import image1 from '../assets/DSC_9721.jpg'
-import image2 from '../assets/DSC_9771.jpg'
-import image3 from '../assets/DSC_9782.jpg'
-import image4 from '../assets/DSC_9738.jpg'
-import image5 from '../assets/DSC_9739.jpg'
+import image1 from '../assets/aspen/aspen1(1).jpeg'
+import image2 from '../assets/brigade/bri2.CR2'
+import image3 from '../assets/aspen/converted/aspen3.jpeg'
+import image4 from '../assets/aspen/converted/aspen4_1.jpeg'
+import image5 from '../assets/aspen/converted/aspen5_1.jpeg'
 
 import './Project2.scss'
+
 import Navbar from '../navbar/Navbar'
 import { NavLink } from 'react-router-dom'
 
@@ -49,7 +50,7 @@ function Project2() {
         <div className="item2">
           <img className="grid_image" src={image3} alt="image 1"/>
         </div>
-        <div className="item3">
+        <div className="item3 long">
           
         </div>
         <div className="item4">

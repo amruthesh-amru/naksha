@@ -81,18 +81,20 @@
             gap: 10px;
             grid-template-areas:
              "I1 I3 I4"
-             "I2 I3 I5"
-             ;
+             "I2 I3 I5";
         .grid_image{
             width:400px;
             height: 350px;
             transition: 0.2s ease-in-out;
             border-radius: 10px;
-            object-fit: cover;
+            object-fit: contain;
         }
         
         .long{
-            height: 800px;
+            img{
+                width: 400px;
+                height: 700px;
+            }
         }
         .item1{
             grid-area: I1;
@@ -103,14 +105,14 @@
        
         .item3{
             background-image: url('../assets/DSC_9768.jpg');
-            min-height: 100%; 
-            width: 400px;
+           height: 700px; 
+           border-radius: 10px;
             margin-top: 8px;
             grid-area: I3;
             // position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
     // background-attachment: fixed;
         }
         .item4{
@@ -124,11 +126,7 @@
             display: flex;
             justify-content: center;
             align-items:flex-start;
-            img{
-                width: 16.1875rem;
-                height: 25.875rem;
-                object-fit: cover;
-            }
+          
         }
         .right{
             width: 100%;
