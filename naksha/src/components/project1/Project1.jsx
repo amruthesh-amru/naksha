@@ -90,8 +90,8 @@ function Project1() {
     <NavLink to='/project2'>
         <div className='wrapper_container'>
             <p>NEXT PROJECT</p>
-            <div className="image_container">
-               <h1> ASPEN'S  PROJECT</h1>
+            <div className="image_container image">
+               <h1>ASPEN'S PROJECT</h1>
             </div>
             <p>A luxuries club & restaurant</p>
         </div>

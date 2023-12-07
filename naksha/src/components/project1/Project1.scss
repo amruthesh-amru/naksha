@@ -265,11 +265,15 @@
             text-transform: uppercase;
             text-align: center;
         }
+        .image{
+            background-image: url('../assets/aspen/aspen10.JPG') !important;
+
+        }
         .image_container{
             width: 25.875rem;
             height: 27.1875rem;
            
-            background-image: url('../assets/Rectangle\ 17562.png');
+           
            
         }
     }

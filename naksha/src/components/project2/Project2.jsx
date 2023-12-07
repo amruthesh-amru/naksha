@@ -1,11 +1,10 @@
 import image1 from '../assets/aspen/aspen1(1).jpeg'
-import image2 from '../assets/brigade/bri2.CR2'
+import image2 from '../assets/aspen/converted/aspen2.jpeg'
 import image3 from '../assets/aspen/converted/aspen3.jpeg'
 import image4 from '../assets/aspen/converted/aspen4_1.jpeg'
 import image5 from '../assets/aspen/converted/aspen5_1.jpeg'
 
 import './Project2.scss'
-
 import Navbar from '../navbar/Navbar'
 import { NavLink } from 'react-router-dom'
 
@@ -14,7 +13,7 @@ function Project2() {
     <>
     <Navbar activeUlClass="projectUlActive" activeParaMid='projectParaActive'/>
     
-    <section className="project_section1">
+    <section className="project_section1 height">
         <div className="text">
             <h1>ASPEN'S PROJECT</h1>
         </div>
@@ -91,7 +90,7 @@ function Project2() {
     <NavLink to='/project3'>
         <div className='wrapper_container'>
             <p>NEXT PROJECT</p>
-            <div className="image_container">
+            <div className="image_container image">
                <h1>BRIGADE'S PROJECT</h1>
             </div>
             <p>A luxuries club & restaurant</p>

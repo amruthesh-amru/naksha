@@ -264,9 +264,10 @@
         .image_container{
             width: 25.875rem;
             height: 27.1875rem;
-           
-            background-image: url('../assets/Rectangle\ 17562.png');
-           
+            background-image: url('../assets/sud6.jpg') !important ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
 }

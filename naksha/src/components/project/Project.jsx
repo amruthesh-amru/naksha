@@ -94,7 +94,6 @@ function Project() {
                 <div className="image_container">
                    <h1>SUDEER KOTAPPA</h1>
                 </div>
-                <p>A luxuries club & restaurant</p>
             </div>
         </NavLink>
         </section>
